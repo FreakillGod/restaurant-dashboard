@@ -12,8 +12,8 @@ const CreateMenu = () => {
         <Form.Item label="Dish Description" required>
           <TextArea rows={3} placeholder="Enter Dish Description" />
         </Form.Item>
-        <Form.Item label="Price" required>
-          <InputNumber rows={3} placeholder="Enter Dish Price" />
+        <Form.Item label="Price (₹)" required>
+          <InputNumber rows={3} placeholder="Dish Price" />
         </Form.Item>
         <Form.Item>
           <Button type="primary">Submit</Button>
